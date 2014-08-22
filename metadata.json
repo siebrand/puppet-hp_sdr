@@ -1,0 +1,67 @@
+{
+  "name": "ceritsc-hp_sdr",
+  "version": "0.9.0",
+  "author": "ceritsc",
+  "summary": "Setup HP Software Delivery Repositories",
+  "license": "MIT",
+  "source": "https://github.com/CERIT-SC/puppet-hp_sdr.git",
+  "project_page": "https://github.com/CERIT-SC/puppet-hp_sdr",
+  "issues_url": "https://github.com/CERIT-SC/puppet-hp_sdr/issues",
+  "tags": [
+    "hp_sdr"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "CentOS"
+    },
+    {
+      "operatingsystem": "Scientific"
+    },
+    {
+      "operatingsystem": "OracleLinux"
+    },
+    {
+      "operatingsystem": "SLES"
+    },
+    {
+      "operatingsystem": "SLED"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 4.0.0"
+    },
+    {
+      "name": "puppetlabs-apt",
+      "version_requirement": ">= 1.6.0"
+    },
+    {
+      "name": "ceritsc-yum",
+      "version_requirement": ">= 0.9.0"
+    },
+    {
+      "name": "darin/zypprepo",
+      "version_requirement": ">= 1.0.1"
+    }
+  ]
+}
