@@ -4,15 +4,19 @@ class hp_sdr::keys (
   $gpg_key1_id   = $hp_sdr::params::gpg_key1_id,
   $gpg_key2      = $hp_sdr::params::gpg_key2,
   $gpg_key2_path = $hp_sdr::params::gpg_key2_path,
-  $gpg_key2_id   = $hp_sdr::params::gpg_key2_id
+  $gpg_key2_id   = $hp_sdr::params::gpg_key2_id,
+  $gpg_key3      = $hp_sdr::params::gpg_key3,
+  $gpg_key3_path = $hp_sdr::params::gpg_key3_path,
+  $gpg_key3_id   = $hp_sdr::params::gpg_key3_id
 ) inherits hp_sdr::params {
 
   validate_string($gpg_key1, $gpg_key1_id)
   validate_string($gpg_key2, $gpg_key2_id)
+  validate_string($gpg_key3, $gpg_key3_id)
 
   case $::osfamily {
     redhat,suse: {
-      validate_absolute_path($gpg_key1_path, $gpg_key2_path)
+      validate_absolute_path($gpg_key1_path, $gpg_key2_path, $gpg_key3_path)
 
       yum::gpgkey { $gpg_key1_path:
         content => $gpg_key1,
@@ -20,6 +24,10 @@ class hp_sdr::keys (
 
       yum::gpgkey { $gpg_key2_path:
         content => $gpg_key2,
+      }
+
+      yum::gpgkey { $gpg_key3_path:
+        content => $gpg_key3,
       }
     }
 
@@ -32,6 +40,11 @@ class hp_sdr::keys (
       apt::key { 'hpPublicKey2':
         key         => $gpg_key2_id,
         key_content => $gpg_key2,
+      }
+
+      apt::key { 'hpPublicKey3':
+        key         => $gpg_key3_id,
+        key_content => $gpg_key3,
       }
     }
 
