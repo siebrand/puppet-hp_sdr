@@ -8,6 +8,8 @@ class hp_sdr::params {
   $gpg_key1_id = '2689B887'
   $gpg_key2 = template('hp_sdr/hpPublicKey2048.pub.erb')
   $gpg_key2_id = '5CE2D476'
+  $gpg_key3 = template('hp_sdr/hpPublicKey2048_key1.pub.erb')
+  $gpg_key3_id = 'B1275EA3'
 
   $project_ver = 'current'
   $url_base = 'http://downloads.linux.hp.com/SDR/repo'
@@ -16,6 +18,7 @@ class hp_sdr::params {
     redhat: {
       $gpg_key1_path = '/etc/pki/rpm-gpg/RPM-GPG-KEY-hpPublicKey1'
       $gpg_key2_path = '/etc/pki/rpm-gpg/RPM-GPG-KEY-hpPublicKey2'
+      $gpg_key3_path = '/etc/pki/rpm-gpg/RPM-GPG-KEY-hpPublicKey3'
 
       $url_repo = '<%= @bundle %>/<%= @dist %>/<%= @release %>/<%= @arch %>/<%= @project_ver %>'
       $arch = '$basearch'
@@ -32,6 +35,7 @@ class hp_sdr::params {
     suse: {
       $gpg_key1_path = '/etc/pki/RPM-GPG-KEY-hpPublicKey1'
       $gpg_key2_path = '/etc/pki/RPM-GPG-KEY-hpPublicKey2'
+      $gpg_key3_path = '/etc/pki/RPM-GPG-KEY-hpPublicKey3'
 
       $url_repo = '<%= @bundle %>/suse/<%= @release %>/<%= @arch %>/<%= @project_ver %>'
       $arch = $::architecture
