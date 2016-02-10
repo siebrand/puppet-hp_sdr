@@ -1,3 +1,11 @@
+## 2016-01-11 - Release 0.9.3
+
+GPG keys update for 2015
+
+#### Bugfixes
+
+- GPG keys update for 2015
+
 ## 2014-12-08 - Release 0.9.2
 
 Fix file/directory permissions.
