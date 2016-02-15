@@ -1,3 +1,11 @@
+## 2016-02-15 - Release 0.9.4
+
+Update repository URL
+
+#### Bugfixes
+
+- Update repository URL
+
 ## 2016-01-11 - Release 0.9.3
 
 GPG keys update for 2015
