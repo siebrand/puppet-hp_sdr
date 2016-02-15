@@ -12,7 +12,7 @@ class hp_sdr::params {
   $gpg_key3_id = 'B1275EA3'
 
   $project_ver = 'current'
-  $url_base = 'http://downloads.linux.hp.com/SDR/repo'
+  $url_base = 'http://downloads.linux.hpe.com/SDR/repo'
 
   case $::osfamily {
     redhat: {
