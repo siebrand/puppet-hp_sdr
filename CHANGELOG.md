@@ -1,4 +1,16 @@
+## 2016-07-26 - Release 0.9.5
+
+### Summary
+
+Updated GPG keys with long IDs.
+
+#### Bugfixes
+
+- Updated GPG keys with fingerprint long IDs to avoid apt::key complains.
+
 ## 2016-02-15 - Release 0.9.4
+
+### Summary
 
 Update repository URL
 
@@ -8,6 +20,8 @@ Update repository URL
 
 ## 2016-01-11 - Release 0.9.3
 
+### Summary
+
 GPG keys update for 2015
 
 #### Bugfixes
@@ -15,6 +29,8 @@ GPG keys update for 2015
 - GPG keys update for 2015
 
 ## 2014-12-08 - Release 0.9.2
+
+### Summary
 
 Fix file/directory permissions.
 
