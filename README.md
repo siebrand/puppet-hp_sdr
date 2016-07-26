@@ -1,6 +1,8 @@
+# This module is not maintained anymore. Please switch to https://forge.puppet.com/vholer/hp_sdr or https://github.com/vholer/puppet-hp_sdr
+
 # Puppet module for HP SDR setup
 
-This module configures client for 
+This module configures client for
 [HP Service Delivery Repositories](http://downloads.linux.hp.com/SDR/index.html).
 
 ### Requirements
