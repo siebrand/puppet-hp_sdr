@@ -1,3 +1,9 @@
+## 2016-07-26 - Release 0.9.6
+
+### Summary
+
+Maintenance release. Changed module owner/repo.
+
 ## 2016-07-26 - Release 0.9.5
 
 ### Summary
