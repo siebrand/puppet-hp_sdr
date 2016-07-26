@@ -62,7 +62,3 @@ class { 'hp_sdr::spp':
 # Contributors
 
 * Håkon Heggernes Lerring <hakon@powow.no>
-
-***
-
-CERIT Scientific Cloud, <support@cerit-sc.cz>

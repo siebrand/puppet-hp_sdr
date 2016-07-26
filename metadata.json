@@ -1,12 +1,12 @@
 {
-  "name": "ceritsc-hp_sdr",
+  "name": "vholer-hp_sdr",
   "version": "0.9.5",
   "author": "ceritsc",
   "summary": "Setup HP Software Delivery Repositories",
   "license": "MIT",
-  "source": "https://github.com/CERIT-SC/puppet-hp_sdr.git",
-  "project_page": "https://github.com/CERIT-SC/puppet-hp_sdr",
-  "issues_url": "https://github.com/CERIT-SC/puppet-hp_sdr/issues",
+  "source": "https://github.com/vholer/puppet-hp_sdr.git",
+  "project_page": "https://github.com/vholer/puppet-hp_sdr",
+  "issues_url": "https://github.com/vholer/puppet-hp_sdr/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 4.0.0"},
     {"name":"puppetlabs/apt","version_requirement":">= 1.6.0"},
