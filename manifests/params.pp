@@ -5,11 +5,11 @@ class hp_sdr::params {
 
   # http://downloads.linux.hp.com/SDR/keys.html
   $gpg_key1 = template('hp_sdr/hpPublicKey1024.pub.erb')
-  $gpg_key1_id = '2689B887'
+  $gpg_key1_id = 'FB410E68CEDF95D066811E95527BC53A2689B887'
   $gpg_key2 = template('hp_sdr/hpPublicKey2048.pub.erb')
-  $gpg_key2_id = '5CE2D476'
+  $gpg_key2_id = '476DADAC9E647EE27453F2A3B070680A5CE2D476'
   $gpg_key3 = template('hp_sdr/hpPublicKey2048_key1.pub.erb')
-  $gpg_key3_id = 'B1275EA3'
+  $gpg_key3_id = '882F7199B20F94BD7E3E690EFADD8D64B1275EA3'
 
   $project_ver = 'current'
   $url_base = 'http://downloads.linux.hpe.com/SDR/repo'
