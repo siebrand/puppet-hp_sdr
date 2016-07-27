@@ -1,5 +1,7 @@
 # Puppet module for HP SDR setup
 
+[![Puppet Forge](http://img.shields.io/puppetforge/v/vholer/hp_sdr.svg)](https://forge.puppetlabs.com/vholer/hp_sdr)
+
 This module configures client for
 [HP Service Delivery Repositories](http://downloads.linux.hp.com/SDR/index.html).
 
