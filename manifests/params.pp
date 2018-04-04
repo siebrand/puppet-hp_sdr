@@ -11,7 +11,7 @@ class hp_sdr::params {
   $gpg_key3 = template('hp_sdr/hpPublicKey2048_key1.pub.erb')
   $gpg_key3_id = '882F7199B20F94BD7E3E690EFADD8D64B1275EA3'
   $gpg_key4 = template('hp_sdr/hpePublicKey2048_key1.pub.erb')
-  $gpg_key4_id = '26C2B797'
+  $gpg_key4_id = '57446EFDE098E5C934B69C7DC208ADDE26C2B797'
 
   $project_ver = 'current'
   $url_base = 'http://downloads.linux.hpe.com/SDR/repo'
